@@ -77,15 +77,15 @@ This project addresses both by:
 
 ```
 clinical-ai-assistant-backend/
-├── main.py # FastAPI app
-├── requirements.txt
-├── Procfile
-└── README.md
+├── main.py              
+├── requirements.txt     # dependencies only
+├── .env.example         # environment variables template
+├── Procfile             # deployment entry
+├── README.md            # documentation
+├── LICENSE             
+└── .gitignore           
+
 ```
-
-
-(Modular split recommended for production)
-
 ---
 
 ## 🚀 Running Locally
